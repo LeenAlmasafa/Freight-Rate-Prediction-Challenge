@@ -26,8 +26,11 @@ The project uses the following files:
 
 data/
 ├── train_test.csv
+
 ├── validation.csv
+
 ├── validation_predictions_template.csv
+
 └── december_chart_inputs.csv
 Development Data
 
