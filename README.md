@@ -145,26 +145,41 @@ python score.py --predictions validation_predictions.csv --december-predictions 
 The scorer checks the prediction files and generates:
 
 scorer_results/
+
 └── candidate_december.png    
 Expected Output Files
 
 After running the model, the repository should contain:
 
 Spotter/
+
 │
+
 ├── Final_models.py
+
 ├── score.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── validation_predictions.csv
+
 ├── model_comparison.csv
+
 ├── validation_error_analysis.csv
+
 │
 ├── data/
+
 │   ├── train_test.csv
+
 │   ├── validation.csv
+
 │   ├── validation_predictions_template.csv
+
 │   └── december_chart_inputs.csv
+
 │
 └── scorer_results/
     └── candidate_december.png   
